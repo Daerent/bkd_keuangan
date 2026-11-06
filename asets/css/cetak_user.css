@@ -1,0 +1,289 @@
+.card {
+    transition: transform 0.2s ease-in-out;
+}
+
+.card:hover {
+    transform: translateY(-2px);
+}
+
+.btn {
+    transition: all 0.2s ease-in-out;
+}
+
+.btn:hover {
+    transform: translateY(-1px);
+}
+
+.card-hover:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 8px 25px rgba(0, 0, 0, 0.1);
+}
+
+.table-responsive {
+    border-radius: 0.375rem;
+}
+
+.text-truncate {
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+
+
+.badge {
+    font-size: 0.75em;
+    font-weight: 500;
+}
+
+
+.btn:disabled {
+    cursor: not-allowed;
+    opacity: 0.6;
+}
+
+
+.alert-link {
+    text-decoration: underline;
+    font-weight: 600;
+}
+
+.alert-link:hover {
+    text-decoration: none;
+}
+
+
+.btn-group .btn {
+    font-size: 0.875rem;
+}
+
+@media (max-width: 768px) {
+    .btn-group {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .btn-group .btn {
+        margin-bottom: 0.25rem;
+        border-radius: 0.375rem !important;
+    }
+}
+
+
+[data-aos] {
+    opacity: 0;
+    transition: all 0.6s ease;
+}
+
+[data-aos].aos-animate {
+    opacity: 1;
+}
+
+
+
+@media (max-width: 576px) {
+
+
+    .container-fluid {
+        padding-left: 12px;
+        padding-right: 12px;
+    }
+
+
+    .card.bg-primary .card-body .row {
+        text-align: center;
+    }
+
+    .card.bg-primary .display-6 {
+        display: none !important;
+    }
+
+
+    .row.mb-4.justify-content-around {
+        margin-left: -8px;
+        margin-right: -8px;
+    }
+
+    .col-md-4.mb-3 {
+        flex: 0 0 100%;
+        max-width: 100%;
+        margin-bottom: 16px;
+    }
+
+
+    .table-responsive {
+        border: 1px solid #dee2e6;
+        border-radius: 8px;
+        overflow: hidden;
+    }
+
+    .table thead {
+        display: none;
+    }
+
+    .table tbody tr {
+        display: block;
+        margin-bottom: 16px;
+        border: 1px solid #e9ecef;
+        border-radius: 8px;
+        padding: 16px;
+        background: white;
+    }
+
+    .table tbody td {
+        display: block;
+        border: none;
+        padding: 8px 0;
+        text-align: left;
+    }
+
+    .table tbody td:before {
+        content: attr(data-label);
+        font-weight: 600;
+        color: #6c757d;
+        display: block;
+        font-size: 0.75rem;
+        margin-bottom: 4px;
+        text-transform: uppercase;
+    }
+
+
+    .btn-group.btn-group-sm {
+        flex-direction: column;
+        gap: 8px;
+        width: 100%;
+    }
+
+    .btn-group.btn-group-sm .btn {
+        width: 100%;
+        justify-content: center;
+        margin: 0 !important;
+        border-radius: 6px !important;
+    }
+
+
+    .row.mt-4>[class*="col-md-"] {
+        flex: 0 0 100%;
+        max-width: 100%;
+        margin-bottom: 16px;
+    }
+
+
+    .badge {
+        font-size: 0.7rem;
+        padding: 4px 8px;
+    }
+
+
+    .card-body.text-center.p-4 {
+        padding: 20px !important;
+    }
+}
+
+
+@media (max-width: 576px) and (pointer: coarse) {
+
+
+    .btn {
+        min-height: 44px;
+        padding: 12px 20px;
+        font-size: 16px;
+    }
+
+    .btn-sm {
+        min-height: 44px;
+        padding: 12px 16px;
+        font-size: 14px;
+    }
+
+
+    .form-control,
+    .form-select {
+        min-height: 44px;
+        font-size: 16px;
+    }
+
+
+    .card-hover {
+        cursor: pointer;
+    }
+
+
+    .table-responsive {
+        -webkit-overflow-scrolling: touch;
+    }
+}
+
+
+@media (max-width: 576px) {
+
+
+    .table tbody td:nth-child(1):before {
+        content: "No Kwitansi";
+    }
+
+    .table tbody td:nth-child(2):before {
+        content: "Kegiatan";
+    }
+
+    .table tbody td:nth-child(3):before {
+        content: "Jenis";
+    }
+
+    .table tbody td:nth-child(4):before {
+        content: "Total";
+    }
+
+    .table tbody td:nth-child(5):before {
+        content: "Tanggal";
+    }
+
+    .table tbody td:nth-child(6):before {
+        content: "Aksi Cetak";
+    }
+
+
+    .table tbody td:last-child {
+        text-align: center;
+        padding-top: 16px;
+        padding-bottom: 8px;
+    }
+
+    .table tbody td:last-child:before {
+        display: none;
+    }
+
+
+    .table tbody .text-truncate {
+        max-width: 100%;
+    }
+
+    .table tbody small.text-muted {
+        font-size: 0.75rem;
+    }
+}
+
+
+
+
+
+
+
+.data-kwitansi {
+    font-family: monospace;
+}
+
+
+
+
+
+@media (max-width: 576px) {
+    .btn:disabled {
+        opacity: 0.7;
+        transform: none !important;
+    }
+
+    .spinner-border-sm {
+        width: 16px;
+        height: 16px;
+    }
+}

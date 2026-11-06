@@ -1,0 +1,164 @@
+/* Custom Styles untuk Relasi Kegiatan */
+.code-rekening {
+    font-family: 'Courier New', monospace;
+    font-weight: bold;
+    color: #0d6efd;
+}
+
+.table-responsive {
+    border-radius: 0.375rem;
+}
+
+.card {
+    box-shadow: 0 0.125rem 0.25rem rgba(0, 0, 0, 0.075);
+    border: 1px solid rgba(0, 0, 0, 0.125);
+}
+
+.card-header {
+    background-color: #f8f9fa;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.125);
+}
+
+.btn-group-sm>.btn {
+    padding: 0.25rem 0.5rem;
+}
+
+/* Info card styles */
+.bg-light.card {
+    border-left: 4px solid #0d6efd;
+}
+
+/* Status badges */
+.badge {
+    font-size: 0.75em;
+}
+
+/* Form check spacing */
+.form-check {
+    margin-bottom: 0.5rem;
+}
+
+.form-check-input {
+    margin-top: 0.25rem;
+}
+
+/* Pagination Styles */
+.pagination-controls .page-item.active .page-link {
+    background-color: #0d6efd;
+    border-color: #0d6efd;
+}
+
+.pagination-controls .page-link {
+    color: #0d6efd;
+    cursor: pointer;
+}
+
+.pagination-controls .page-link:hover {
+    color: #024dbc;
+}
+
+.pagination-info {
+    font-size: 0.9rem;
+    color: #6c757d;
+    padding: 0.375rem 0;
+}
+
+/* Search Section Styles */
+.search-input:focus {
+    border-color: #86b7fe;
+    box-shadow: 0 0 0 0.25rem rgba(13, 110, 253, 0.25);
+}
+
+/* Make selects more readable */
+.form-select option {
+    padding: 8px 12px;
+}
+
+/* Style untuk field yang error */
+.is-invalid {
+    border-color: #dc3545 !important;
+    background-color: #fff5f5 !important;
+}
+
+.is-invalid:focus {
+    box-shadow: 0 0 0 0.25rem rgba(220, 53, 69, 0.25) !important;
+}
+
+/* Style khusus untuk duplicate error */
+.duplicate-error {
+    animation: shake 0.5s ease-in-out;
+}
+
+@keyframes shake {
+
+    0%,
+    100% {
+        transform: translateX(0);
+    }
+
+    25% {
+        transform: translateX(-5px);
+    }
+
+    75% {
+        transform: translateX(5px);
+    }
+}
+
+/* Style untuk modal delete */
+.modal-header.bg-danger {
+    background: linear-gradient(135deg, #dc3545, #c82333) !important;
+}
+
+/* Animation untuk warning sections */
+.alert-warning {
+    border-left: 4px solid #e0a800;
+}
+
+.alert-danger {
+    border-left: 4px solid #dc3545;
+}
+
+.alert-info {
+    border-left: 4px solid #17a2b8;
+}
+
+/* Style khusus untuk list_doc error */
+.list-doc-error {
+    border-color: #dc3545 !important;
+    background-color: #fff5f5 !important;
+    box-shadow: 0 0 0 0.25rem rgba(220, 53, 69, 0.25) !important;
+}
+
+.list-doc-error:focus {
+    border-color: #dc3545 !important;
+    box-shadow: 0 0 0 0.25rem rgba(220, 53, 69, 0.25) !important;
+}
+
+/* Animation untuk list_doc error */
+@keyframes pulse-listdoc {
+
+    0%,
+    100% {
+        box-shadow: 0 0 0 rgba(220, 53, 69, 0.4);
+    }
+
+    50% {
+        box-shadow: 0 0 0 8px rgba(220, 53, 69, 0);
+    }
+}
+
+.list-doc-error {
+    animation: pulse-listdoc 2s infinite;
+}
+
+/* Responsive table */
+@media (max-width: 768px) {
+    .table-responsive {
+        font-size: 0.875rem;
+    }
+
+    .btn-group-sm>.btn {
+        padding: 0.2rem 0.4rem;
+    }
+}

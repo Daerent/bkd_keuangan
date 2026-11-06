@@ -1,0 +1,57 @@
+/* Minimal custom styles to avoid conflicts */
+.card {
+    transition: transform 0.2s ease-in-out;
+}
+
+.card:hover {
+    transform: translateY(-2px);
+}
+
+.btn {
+    transition: all 0.2s ease-in-out;
+}
+
+.btn:hover {
+    transform: translateY(-1px);
+}
+
+/* Ensure table responsiveness */
+.table-responsive {
+    border-radius: 0.375rem;
+}
+
+/* Custom badge styles */
+.badge {
+    font-size: 0.75em;
+    font-weight: 500;
+}
+
+/* Text truncation */
+.text-truncate {
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+
+/* Animation delays */
+[data-aos-delay="100"] {
+    animation-delay: 100ms;
+}
+
+[data-aos-delay="200"] {
+    animation-delay: 200ms;
+}
+
+[data-aos-delay="300"] {
+    animation-delay: 300ms;
+}
+
+/* Chart container styles */
+.chart-container {
+    position: relative;
+    width: 100%;
+}
+
+canvas {
+    max-width: 100%;
+}

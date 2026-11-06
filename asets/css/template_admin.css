@@ -1,0 +1,381 @@
+/* Floating Shapes for Admin Template - Yellow Orange Theme */
+.floating-shapes-admin {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+    z-index: 1;
+    pointer-events: none;
+}
+
+.shape-admin {
+    position: absolute;
+    border-radius: 50%;
+    animation: float-admin 8s ease-in-out infinite;
+    opacity: 0.08;
+    filter: blur(0.8px);
+}
+
+/* Variasi Kuning Oranye untuk Admin Template */
+.shape-admin-1 {
+    width: 120px;
+    height: 120px;
+    top: 10%;
+    left: 5%;
+    background: linear-gradient(135deg, #FFD700 0%, #FF8C00 100%);
+    animation-delay: 0s;
+}
+
+.shape-admin-2 {
+    width: 80px;
+    height: 80px;
+    top: 60%;
+    right: 10%;
+    background: linear-gradient(135deg, #FFA500 0%, #FF6347 100%);
+    animation-delay: 2s;
+}
+
+.shape-admin-3 {
+    width: 100px;
+    height: 100px;
+    bottom: 20%;
+    left: 15%;
+    background: linear-gradient(135deg, #FFB347 0%, #FFCC33 100%);
+    animation-delay: 4s;
+}
+
+.shape-admin-4 {
+    width: 60px;
+    height: 60px;
+    top: 30%;
+    right: 20%;
+    background: linear-gradient(135deg, #FFD700 0%, #FFA500 100%);
+    animation-delay: 1s;
+}
+
+.shape-admin-5 {
+    width: 90px;
+    height: 90px;
+    bottom: 40%;
+    left: 80%;
+    background: linear-gradient(135deg, #FF8C00 0%, #FFD700 100%);
+    animation-delay: 3s;
+}
+
+.shape-admin-6 {
+    width: 70px;
+    height: 70px;
+    top: 70%;
+    left: 70%;
+    background: linear-gradient(135deg, #FF6347 0%, #FFA500 100%);
+    animation-delay: 5s;
+}
+
+@keyframes float-admin {
+
+    0%,
+    100% {
+        transform: translateY(0px) rotate(0deg) scale(1);
+    }
+
+    25% {
+        transform: translateY(-15px) rotate(90deg) scale(1.05);
+    }
+
+    50% {
+        transform: translateY(10px) rotate(180deg) scale(0.95);
+    }
+
+    75% {
+        transform: translateY(-5px) rotate(270deg) scale(1.02);
+    }
+}
+
+/* Enhanced animations for admin template */
+.shape-admin-1 {
+    animation: float-admin-1 12s ease-in-out infinite;
+}
+
+.shape-admin-2 {
+    animation: float-admin-2 9s ease-in-out infinite;
+}
+
+.shape-admin-3 {
+    animation: float-admin-3 11s ease-in-out infinite;
+}
+
+.shape-admin-4 {
+    animation: float-admin-4 8s ease-in-out infinite;
+}
+
+.shape-admin-5 {
+    animation: float-admin-5 10s ease-in-out infinite;
+}
+
+.shape-admin-6 {
+    animation: float-admin-6 13s ease-in-out infinite;
+}
+
+@keyframes float-admin-1 {
+
+    0%,
+    100% {
+        transform: translate(0, 0) rotate(0deg) scale(1);
+        opacity: 0.08;
+    }
+
+    25% {
+        transform: translate(30px, -20px) rotate(90deg) scale(1.1);
+        opacity: 0.12;
+    }
+
+    50% {
+        transform: translate(-25px, 25px) rotate(180deg) scale(0.9);
+        opacity: 0.06;
+    }
+
+    75% {
+        transform: translate(20px, 15px) rotate(270deg) scale(1.05);
+        opacity: 0.1;
+    }
+}
+
+@keyframes float-admin-2 {
+
+    0%,
+    100% {
+        transform: translate(0, 0) rotate(0deg) scale(1);
+        opacity: 0.08;
+    }
+
+    33% {
+        transform: translate(-20px, 30px) rotate(120deg) scale(1.08);
+        opacity: 0.11;
+    }
+
+    66% {
+        transform: translate(25px, -15px) rotate(240deg) scale(0.92);
+        opacity: 0.05;
+    }
+}
+
+@keyframes float-admin-3 {
+
+    0%,
+    100% {
+        transform: translate(0, 0) rotate(0deg) scale(1);
+        opacity: 0.08;
+    }
+
+    20% {
+        transform: translate(35px, 10px) rotate(72deg) scale(1.06);
+        opacity: 0.1;
+    }
+
+    40% {
+        transform: translate(-30px, 35px) rotate(144deg) scale(0.94);
+        opacity: 0.07;
+    }
+
+    60% {
+        transform: translate(25px, -25px) rotate(216deg) scale(1.03);
+        opacity: 0.09;
+    }
+
+    80% {
+        transform: translate(-35px, -15px) rotate(288deg) scale(0.97);
+        opacity: 0.06;
+    }
+}
+
+@keyframes float-admin-4 {
+
+    0%,
+    100% {
+        transform: translate(0, 0) rotate(0deg) scale(1);
+        opacity: 0.08;
+    }
+
+    50% {
+        transform: translate(40px, 20px) rotate(180deg) scale(1.15);
+        opacity: 0.12;
+    }
+}
+
+@keyframes float-admin-5 {
+
+    0%,
+    100% {
+        transform: translate(0, 0) rotate(0deg) scale(1);
+        opacity: 0.08;
+    }
+
+    16% {
+        transform: translate(-25px, 40px) rotate(60deg) scale(1.04);
+        opacity: 0.09;
+    }
+
+    32% {
+        transform: translate(35px, -20px) rotate(120deg) scale(0.96);
+        opacity: 0.07;
+    }
+
+    48% {
+        transform: translate(-30px, -35px) rotate(180deg) scale(1.07);
+        opacity: 0.1;
+    }
+
+    64% {
+        transform: translate(40px, 25px) rotate(240deg) scale(0.93);
+        opacity: 0.06;
+    }
+
+    80% {
+        transform: translate(-35px, 30px) rotate(300deg) scale(1.02);
+        opacity: 0.08;
+    }
+}
+
+@keyframes float-admin-6 {
+
+    0%,
+    100% {
+        transform: translate(0, 0) rotate(0deg) scale(1);
+        opacity: 0.08;
+    }
+
+    25% {
+        transform: translate(20px, -30px) rotate(90deg) scale(1.12);
+        opacity: 0.11;
+    }
+
+    50% {
+        transform: translate(-35px, 15px) rotate(180deg) scale(0.88);
+        opacity: 0.05;
+    }
+
+    75% {
+        transform: translate(15px, 35px) rotate(270deg) scale(1.09);
+        opacity: 0.09;
+    }
+}
+
+/* Background untuk section main content admin */
+.bg-light.bg-between {
+    background: linear-gradient(135deg, #f8f9fa 0%, #e9ecef 50%, #f8f9fa 100%) !important;
+    position: relative;
+}
+
+
+
+/* Responsive adjustments for admin */
+@media (max-width: 768px) {
+    .floating-shapes-admin .shape-admin {
+        opacity: 0.1;
+    }
+
+    .shape-admin-1 {
+        width: 100px;
+        height: 100px;
+    }
+
+    .shape-admin-2 {
+        width: 70px;
+        height: 70px;
+    }
+
+    .shape-admin-3 {
+        width: 80px;
+        height: 80px;
+    }
+
+    .shape-admin-4 {
+        width: 50px;
+        height: 50px;
+    }
+
+    .shape-admin-5 {
+        width: 60px;
+        height: 60px;
+    }
+
+    .shape-admin-6 {
+        width: 45px;
+        height: 45px;
+    }
+}
+
+@media (max-width: 576px) {
+    .floating-shapes-admin .shape-admin {
+        opacity: 0.05;
+        filter: blur(0.3px);
+    }
+
+    .shape-admin-1 {
+        width: 70px;
+        height: 70px;
+    }
+
+    .shape-admin-2 {
+        width: 50px;
+        height: 50px;
+    }
+
+    .shape-admin-3 {
+        width: 60px;
+        height: 60px;
+    }
+
+    .shape-admin-4 {
+        width: 40px;
+        height: 40px;
+    }
+
+    .shape-admin-5 {
+        width: 45px;
+        height: 45px;
+    }
+
+    .shape-admin-6 {
+        width: 35px;
+        height: 35px;
+    }
+}
+
+/* Enhanced admin navbar */
+.navbar-nav .nav-link {
+    transition: all 0.3s ease;
+}
+
+.navbar-nav .nav-link:hover {
+    transform: translateY(-1px);
+}
+
+/* Touch device optimizations for admin */
+@media (max-width: 576px) {
+    .list-group-item {
+        min-height: 44px;
+        display: flex;
+        align-items: center;
+    }
+}
+
+
+/* Larger navbar brand image */
+.navbar-brand-img.larger {
+    height: 50px;
+    /* Adjust as needed */
+    width: auto;
+}
+
+.navbar-brand-img.x-large {
+    height: 60px;
+    /* Even larger */
+    width: auto;
+}
+
+/* If you want to maintain aspect ratio with max-width */
+.navbar-brand-img.responsive-large {
+    max-height: 50px;
+    width: auto;
+}
